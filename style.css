@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.land{
+    margin-left: 70px;
+}
+.heading{
+    font-family: Belleza;
+    font-weight: 400;
+    font-size: 96px;
+    margin-top: 80px;
+}
+.homes{
+    font-family: Aeonik;
+    font-weight: 500;
+    font-size: 24px;
+}
+.press{
+    font-size: 16px;
+    font-weight: 250;
+    font-family: Aeonik;
+}
+.boom{
+    font-family: Aeonik;
+    font-size: 36px;
+    font-weight: 900;
+}
+.forbes{
+font-family: Lora;
+font-size: 36px;
+font-weight: 700;
+}
+.image{
+    height: 900px;
+    width: 800px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.shop{
+    width:178px;
+    height: 53px;
+    border-radius: 38px;
+    color: white !important;
+    background-color: black !important;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:600px){
+
+    .land{
+        margin-left: 15px;
+    }
+    .heading{
+        font-family: Belleza;
+        font-weight: 500;
+        font-size: 24px;
+        margin: 0;
+    }
+    .homes{
+        font-family: Aeonik;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .press{
+        font-size: 9px;
+        font-weight: 250;
+        font-family: Aeonik;
+    }
+    .boom{
+        font-family: Aeonik;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .forbes{
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 700;
+    }
+    .sub{
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+        
+    }
+    .image{
+        height: 320px;
+        width: 230px;
+    }
+    .shop{
+        font-size: 11px;
+        width: 88px;
+        height: 30px;
+    }
+
+}
